@@ -1,0 +1,25 @@
+# CI Pipeline Demo
+
+This project demonstrates a simple CI pipeline using GitHub Actions.
+
+## Features
+
+- Automatic build on push
+- Automated testing using pytest
+- Continuous Integration workflow
+
+## Project Structure
+
+src/ → application code  
+tests/ → automated tests  
+.github/workflows → CI pipeline
+
+## Run locally
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run tests:
+
+pytest
